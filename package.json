@@ -10,11 +10,6 @@
     "start": "next start",
     "prettier": "prettier --write src"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pnpm run lint && pnpm run prettier"
-    }
-  },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.5",
     "@prisma/client": "^4.11.0",
